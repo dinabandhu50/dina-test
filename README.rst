@@ -103,3 +103,8 @@ Poetry + Sphinx
 
             # html_theme = "alabaster"
               html_theme = "nature"
+
+
+- step 5: Use `make html` command for building html pages.
+
+- step 6: open the html from `docs/_build/html/index.html`

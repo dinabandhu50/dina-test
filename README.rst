@@ -72,3 +72,34 @@ Poetry + Vscode
 
         # In the left side of vscode a chemistry 
         # lab flask will appear for testing your tests. 
+
+Poetry + Sphinx
+---------------
+
+- step 1: Add the package in development mode 
+
+    .. code-block:: sh 
+
+        poetry add -D sphinx
+
+- step 2: Create a new doc directory and inside it run `sphinx-quickstart`. Then fill out all the things it asks, incase of not knowing just press enter, it will take the default setting.
+
+- step 3: The 'docs' folder now will contain `_build`, `conf.py` and `index.rst`. We need to edit them.
+
+- step 4: Open `conf.py`
+
+    .. code-block:: sh
+
+        # Uncomment them
+
+            import os
+            import sys
+
+            sys.path.insert(0, os.path.abspath(".."))
+
+        # Add sphinx packages and theme
+
+            extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]
+
+            # html_theme = "alabaster"
+              html_theme = "nature"

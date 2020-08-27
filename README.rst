@@ -48,27 +48,27 @@ Poetry + Vscode
 
     .. code-block:: sh 
 
-        // add the poetry venv directory path to vscode setting
+        # add the poetry venv directory path to vscode setting
             "python.venvPath": "~/.cache/pypoetry/virtualenvs"
 
-        // now add the python path from down below bar of vscode 
-        // to project env.
+        # now add the python path from down below bar of vscode 
+        # to project env.
 
 - step 3: Set the testing in vscode:
 
     .. code-block:: sh 
 
-        // open command palette
+        # open command palette
             'ctrl' + 'shift' + 'p'
 
-        // search for 'test' in command palette
+        # search for 'test' in command palette
             
-        // choose the python test from drop down
+        # choose the python test from drop down
 
-        // Then select pytest from drop down 
+        # Then select pytest from drop down 
 
-        // In the down below of vscode a lightning 
-        // 'Run test' will appear
+        # In the down below of vscode a lightning 
+        # 'Run test' will appear
 
-        // In the left side of vscode a chemistry 
-        // lab flask will appear for testing your tests. 
+        # In the left side of vscode a chemistry 
+        # lab flask will appear for testing your tests. 

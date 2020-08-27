@@ -1,0 +1,21 @@
+dina\_test package
+==================
+
+Submodules
+----------
+
+dina\_test.dinaTest module
+--------------------------
+
+.. automodule:: dina_test.dinaTest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: dina_test
+   :members:
+   :undoc-members:
+   :show-inheritance:

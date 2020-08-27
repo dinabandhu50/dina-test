@@ -1,0 +1,9 @@
+README.rst
+setup.py
+dina_test/__init__.py
+dina_test/dinaTest.py
+dina_test.egg-info/PKG-INFO
+dina_test.egg-info/SOURCES.txt
+dina_test.egg-info/dependency_links.txt
+dina_test.egg-info/requires.txt
+dina_test.egg-info/top_level.txt

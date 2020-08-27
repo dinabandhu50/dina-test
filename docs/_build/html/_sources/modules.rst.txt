@@ -1,0 +1,8 @@
+dina-test
+=========
+
+.. toctree::
+   :maxdepth: 4
+
+   dina_test
+   tests

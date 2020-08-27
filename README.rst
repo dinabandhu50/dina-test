@@ -2,10 +2,13 @@
 This is my first pypi package
 *****************************
 
-Steps
-=====
+poetry 
+------
+ - step 1: install poetry using 
+    
+    .. code-block:: sh
+    
+        curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python    
 
- - step 1: " install poetry and open it with vscode"
- - step 2: " build the poetry package"
 
-html_theme = "nature"
+ - step 2: Configure it to open with vscode
